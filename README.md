@@ -22,7 +22,7 @@ A responsive web app for exploring country data with search, pagination, and fav
 
 ## Cross-Browser Compatibility
 
-- Tested on **Chrome**, **Firefox**, and **Safari**.
+- Tested on **Chrome**, **Firefox**.
 - Works consistently across major browsers.
 
 ## Time Estimate
