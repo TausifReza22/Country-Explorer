@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#search {
+    padding: 0.5rem;
+    width: 300px;
+}
+
+.suggestions {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    width: 300px;
+    z-index: 1;
+}
+
+.suggestions div {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.suggestions div:hover {
+    background-color: #f0f0f0;
+}
+
+main {
+    display: flex;
+    padding: 1rem;
+}
+
+.country-list {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.country-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.load-more {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.load-more:hover {
+    background-color: #45a049;
+}
+
+.favorites {
+    width: 200px;
+    margin-left: 1rem;
+}
+
+.favorites h2 {
+    margin-top: 0;
+}
